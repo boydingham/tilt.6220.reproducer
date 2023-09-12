@@ -1,3 +1,5 @@
+# tilt.6220.reproducer
+
 ## Steps to Reproduce
 1. Download and extract this reproducer
 2. In the project root, run: `docker compose up`
@@ -12,6 +14,6 @@
 3. Shut down both services with: `docker compose down`
 4. Delete the Spring Boot app image with: `docker image rm […]`
 5. Still in the project root, run: `tilt up`
-   * Hit [`space`] to launch the Tilt UI
+   * Hit [`Space`] to launch the Tilt UI
    * Observe that the `db` service successfully starts
    * Observe that the `app` service fails to start
